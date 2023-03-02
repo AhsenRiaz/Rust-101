@@ -1,3 +1,4 @@
+#[allow(dead_code)]
 enum Colors {
     Red,
     Blue,
