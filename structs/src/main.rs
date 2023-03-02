@@ -16,6 +16,8 @@ fn print_drink(drink: Drink) {
         Flavour::Sparkling => println!("sparkling flavor"),
         Flavour::Sweet => println!("sweet flavor"),
     }
+
+    println!("oz: {}", drink.fluid_oz);
 }
 
 fn main() {
