@@ -10,6 +10,7 @@ fn main() {
     shipping_box.print();
 }
 
+#[allow(dead_code)]
 enum Color {
     Brown,
     Red,
